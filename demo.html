@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+</head>
+<body>
+<h1>
+    Demo for Prevent Double Submit jQuery Plugin
+</h1>
+<h2>
+    Enhanced Form with Prevent Double Submit behavior
+</h2>
+<form action="http://requestb.in/19p96cp1" method="POST" class="prevent-double-submit">
+    <input type="text" name="prevent-double-submit" value="lorem" />
+    <button type="submit">
+        Submit
+    </button>
+</form>
+<h2>
+    Regular Form without plugin
+</h2>
+<form action="http://requestb.in/19p96cp1" method="POST">
+    <input type="text" name="regular" value="ipsum" />
+    <button type="submit">
+        Submit
+    </button>
+</form>
+<h2>
+    Demo Tips
+</h2>
+<ol>
+    <li>
+        Go to <a href="http://requestb.in/">http://requestb.in/</a> and create a RequestBin.
+    </li>
+    <li>
+        Copy the Bin URL and set it as the form action.
+    </li>
+    <li>
+        Try to submit the form multiple times before page changes by hitting enter rapidly in the text field, or
+        clicking the submit button rapidly.
+    </li>
+    <li>
+        Inspect the RequestBin logs. You should see that the Prevent Double Submit form always submits only once, but it
+        is easy to make duplicate requests with the regular form.
+    </li>
+</ol>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+<script src="jquery-prevent-double-submit.js" type="text/javascript"></script>
+</body>
+</html>

@@ -1,15 +1,26 @@
 {
-  "name": "jquery-prevent-double-submit",
-  "main": "jquery-prevent-double-submit.js",
-  "version": "1.0.0",
-  "homepage": "https://github.com/solarmosaic/jquery-prevent-double-submit",
-  "description": "Prevent Double Submit jQuery Plugin",
-  "license": "Unlicense",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ]
+    "name": "jquery-prevent-double-submit",
+    "main": "jquery-prevent-double-submit.js",
+    "homepage": "https://github.com/solarmosaic/jquery-prevent-double-submit",
+    "description": "Prevent Double Submit jQuery Plugin: prevent duplicate form submissions by only allowing a form to submit once",
+    "license": "Unlicense",
+    "keywords": [
+        "prevent",
+        "double",
+        "submit",
+        "duplicate",
+        "form",
+        "submissions",
+        "only",
+        "once",
+        "jquery",
+        "plugin"
+    ],
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ]
 }
